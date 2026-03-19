@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/StartUp.unity
+    guid: 036a6f5d0aac44ff5a4c81c724b0dfc2
+  - enabled: 1
+    path: Assets/Scenes/SimpleSim.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 0
+    path: Assets/HISPlayerSample/Scenes/HISPlayerSample.unity
+    guid: 7b6d01625e32e4f1297230d1aa9748ce
+  - enabled: 0
+    path: Assets/Scenes/plugintest.unity
+    guid: 31dc0f0e81b9bae3fa9f1f50330a06a0
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 64730884ab4f741ab80763c0593b3b4b, type: 2}
+    Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: 6d5207189f41c47c49d8392bb4662da4, type: 2}
+    Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 1773333aaa0d44b4a9db077dfd2bc0ba, type: 2}
+    com.htc.upm.wave.xrsdk.xrsettings: {fileID: 11400000, guid: cd95d85b558c07043a48a554e1a25155, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: dc5998ee705d01a4091dab643c0ba543, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 0273b96318a0476b28f24318215340a1, type: 2}
