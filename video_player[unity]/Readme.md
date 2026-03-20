@@ -1,4 +1,4 @@
-# Vioken Unity Video Player
+# Husper Unity Video Player
 
 This Unity project implements the real‑time VR playback client for Husper, a bio‑adaptive ABR framework. It loads network + biosignal‑aware bitrate policies (exported as ONNX) and streams DASH video chunks at runtime.
 
@@ -17,7 +17,7 @@ This Unity project implements the real‑time VR playback client for Husper, a b
 
 
 - **Extensible**  
-  Swap in alternate ABR controllers (rate‑based, MPC) for comparison.
+  Swap in alternate ABR controllers for comparison.
 
 ---
 
@@ -31,5 +31,5 @@ This Unity project implements the real‑time VR playback client for Husper, a b
 ---
 
 ### To integrate trained model with unity, place the model in onnx format in Assets folder and attach the model to DQN game object inside unity.
-### build and run the application to device.
+### Build and run the application to device.
 
